@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Container {
+    display: flex;
+    height: 100px;
+
+    background: #000000;
+
+
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    color: white;
+    
+}
+
+li{
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 50px;
+    margin-left: 300px;
+
+
+
+}
+
+
+
+
+
+
+img {
+
+    margin-left: 150px;
+    height: 70px;
+    margin-top: 20px;
+
+
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    color: #222;
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.heading h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #222;
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+button {
+    padding: 14px;
+    border: 1px solid #00b6d1;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14PX;
+    color: #ffffff;
+    background-color: #00b6d1;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+button:hover {
+    background-color: #09a8c0;
+    color: #f0f0f0;    
+    transform: scale(1);
+    transition: 1s;
+ }
+
+ .container_1{
+    margin: -10px 100px;
+    display: grid;
+    grid-template-areas: "boss boss boss";
+    justify-content: space-around;
+    font-family: "segoe UI";
+   
+ }
+
+
+ .box{
+    margin-top: 50px;
+    padding: 50px 30px;
+    background-color: #eee8e8;
+    text-align: center;
+    border-radius: 5px;
+ }
+
+ .box h2{
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+ .box h4{
+    margin-top: 15px;
+  font-size: 12px;
+  /* font-weight:400px; */
+  color: #222;
+ }
+
+ .box button{
+      padding: 8px 16px;
+    margin-top: 20px;
+    background: #5CB85C;
+    font-weight: 500px;
+    color: #fff;
+    font-family: 12px;
+    font-family: "segoe UI";
+    border: 1px solid;
+    cursor: pointer;
+ }
+
+ .box h5{
+    margin-top: 10px;
+    font-size: 10px;
+    color: #222;
+    cursor: pointer;
+
+ }
+
+ .box p{
+    margin-top: 10px;
+    font-size: 8px;
+    cursor: pointer;
+ }
+
+ .box button:hover {
+    background-color: #09a8c0;
+    color: #f0f0f0;    
+    transform: scale(1);
+    transition: .5s;
+}
+
+
+
+.section_1{
+    background-color: #000000;
+    margin-top: 100px;
+    padding: 50px;
+    display: grid;
+    grid-template-areas: "same same";
+    font-family:  "segoe UI";
+}
+
+.newsletter{
+    padding: 150px;
+    text-align: center;
+    
+
+}
+
+
+.newsletter h2{
+    color: #fff;
+    font-size: 25px;
+}
+
+.newsletter p {
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+  
+  
+  .newsletter-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 100px 80PX;
+    text-align: center;
+    margin-left: 150PX;
+   
+  }
+  
+  .newsletter-container h2 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-container p {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .newsletter-form input:focus {
+    border-color: #007bff;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  footer{
+    padding: 1px;
+    background: #3a3535;
+
+  }
+
+  footer h1 {
+   
+    font-weight: 800;
+    color: #cccccc;
+    text-align: center;
+    margin-bottom: 50px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  footer h1:hover {
+    color: #007bff; 
+    transform: scale(1.1);
+}
+footer a {
+    text-decoration: none; 
+}
+  
+  
